@@ -1,8 +1,8 @@
 {
   "name": "omx",
   "version": "0.0.1",
-  "description": "mixin for objection model",
-  "main": "index.js",
+  "description": "cli for omx node projects",
+  "main": "bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/chen7david/omx/issues"
   },
-  "homepage": "https://github.com/chen7david/omx#readme"
+  "homepage": "https://github.com/chen7david/omx#readme",
+  "bin": {
+    "aox": "./bin/index.js"
+  },
+  "dependencies": {
+    "fs-extra": "^9.1.0",
+    "inquirer": "^8.0.0"
+  }
 }
